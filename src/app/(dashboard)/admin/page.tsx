@@ -7,9 +7,6 @@ import PendingDuesChart from "@/components/PendingVsPaidChart"
 import dynamic from 'next/dynamic';
 import Announcements from "@/components/Announcements";
 
-// Remove this line - you don't need the regular import anymore
-// import EventCalender from "@/components/EventCalender"
-
 const EventCalendar = dynamic(() => import('@/components/EventCalender'), {
     ssr: false,
     loading: () => (
@@ -23,45 +20,57 @@ const EventCalendar = dynamic(() => import('@/components/EventCalender'), {
 
 const AdminPage = () => {
   return (
-    <div className="p-4 flex gap-4 flex-col md:flex-row">
+    <div className="flex gap-4 flex-col xl:flex-row">
 
-      {/* LEFT */}
-      <div className="w-full lg:w-2/3 flex flex-col gap-8">
+      {/* LEFT - Main content area */}
+      <div className="w-full xl:w-2/3 flex flex-col gap-6 lg:gap-8">
 
-        {/* USER CARDS */}
-        <div className="flex gap-4 justify-between flex-wrap">
+        {/* USER CARDS - Better responsive grid */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-4">
           <UserCard type="student" />
           <UserCard type="teacher" />
           <UserCard type="parent" />
           <UserCard type="staff" />
         </div>
 
-        {/* MIDDLE CHARTS */}
+        {/* MIDDLE CHARTS - Responsive heights and layout */}
         <div className="flex gap-4 flex-col lg:flex-row">
 
-          {/* COUNT CHART */}
-          <div className="w-full lg:w-1/3 h-[450px]">
-            <CountChart />
+          {/* COUNT CHART - More flexible sizing */}
+          <div className="w-full lg:w-1/3 xl:w-1/3">
+            <div className="h-[350px] sm:h-[400px] lg:h-[450px] xl:h-[520px] 2xl:h-[580px]">
+              <CountChart />
+            </div>
           </div>
 
-          {/* ATTENDANCE CHART */}
-          <div className="w-full lg:w-2/3 h-[450px]">
-            <MonthlyFeeChart />
+          {/* MONTHLY FEE CHART - Responsive height */}
+          <div className="w-full lg:w-2/3 xl:w-2/3">
+            <div className="h-[350px] sm:h-[400px] lg:h-[450px] xl:h-[520px] 2xl:h-[580px]">
+              <MonthlyFeeChart />
+            </div>
           </div>
 
         </div>
 
-        {/* BOTTOM CHARTS */}
-        <div className="w-full h-[500px]">
-          <PendingDuesChart />
+        {/* BOTTOM CHART - Responsive height */}
+        <div className="w-full">
+          <div className="h-[300px] sm:h-[350px] lg:h-[400px] xl:h-[480px] 2xl:h-[520px]">
+            <PendingDuesChart />
+          </div>
         </div>
       </div>
 
-      {/* RIGHT */}
-
-      <div className="w-full lg:w-1/3 flex flex-col gap-8">
-        <EventCalendar />
-        <Announcements />
+      {/* RIGHT - Sidebar content */}
+      <div className="w-full xl:w-1/3 flex flex-col gap-6 lg:gap-8">
+        {/* Calendar - Responsive height */}
+        <div className="min-h-[300px] lg:min-h-[350px] xl:min-h-[420px]">
+          <EventCalendar />
+        </div>
+        
+        {/* Announcements */}
+        <div className="flex-1">
+          <Announcements />
+        </div>
       </div>
     </div>
   )
