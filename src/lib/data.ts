@@ -13,7 +13,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Math", "Geometry"],
     classes: ["1B", "2A", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Physics", "Chemistry"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Biology"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["History"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Music", "History"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Physics"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["English", "Spanish"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Math", "Geometry"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 9,
@@ -109,7 +109,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Literature", "English"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 10,
@@ -121,7 +121,7 @@ export const teachersData = [
     phone: "1234567890",
     subjects: ["Biology"],
     classes: ["5A", "4B", "3C"],
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
 ];
 
@@ -136,7 +136,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "1B",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 2,
@@ -148,7 +148,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 3,
@@ -160,7 +160,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 4,
@@ -172,7 +172,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 5,
@@ -184,7 +184,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 6,
@@ -196,7 +196,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 7,
@@ -208,7 +208,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 8,
@@ -220,7 +220,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 9,
@@ -232,7 +232,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 10,
@@ -244,7 +244,7 @@ export const studentsData = [
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
 ];
 
@@ -255,7 +255,7 @@ export const parentsData = [
     students: ["Sarah Brewer"],
     email: "john@doe.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 2,
@@ -263,7 +263,7 @@ export const parentsData = [
     students: ["Cecilia Bradley"],
     email: "jane@doe.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 3,
@@ -271,7 +271,7 @@ export const parentsData = [
     students: ["Fanny Caldwell"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 4,
@@ -279,7 +279,7 @@ export const parentsData = [
     students: ["Mollie Fitzgerald", "Ian Bryant"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 5,
@@ -287,7 +287,7 @@ export const parentsData = [
     students: ["Mable Harvey"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 6,
@@ -295,7 +295,7 @@ export const parentsData = [
     students: ["Joel Lambert"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 7,
@@ -303,7 +303,7 @@ export const parentsData = [
     students: ["Carrie Tucker", "Lilly Underwood"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 8,
@@ -311,7 +311,7 @@ export const parentsData = [
     students: ["Alexander Blair"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 9,
@@ -319,7 +319,7 @@ export const parentsData = [
     students: ["Susan Webster", "Maude Stone"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
   {
     id: 10,
@@ -327,7 +327,7 @@ export const parentsData = [
     students: ["Stella Scott"],
     email: "mike@geller.com",
     phone: "1234567890",
-    address: "123 Main St, Anytown, USA",
+    address: "123 Main St, Anytown, INDIA",
   },
 ];
 
@@ -421,7 +421,7 @@ export const classesData = [
     supervisor: "Iva Frank",
   },
   {
-    id: 5,
+    id: 6,
     name: "5B",
     capacity: 20,
     grade: 5,
@@ -672,7 +672,7 @@ export const resultsData = [
     subject: "Math",
     class: "1A",
     teacher: "John Doe",
-    student: "John Doe",
+    student: "jane Doe",
     date: "2025-01-01",
     type: "exam",
     score: 90,
@@ -915,149 +915,144 @@ export const announcementsData = [
   },
 ];
 
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 5, 27, 8, 0),
+    end: new Date(2025, 5, 27, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2025, 5, 27, 9, 0),
+    end: new Date(2025, 5, 27, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2025, 5, 27, 10, 0),
+    end: new Date(2025, 5, 27, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2025, 5, 27, 11, 0),
+    end: new Date(2025, 5, 27, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2025, 5, 27, 13, 0),
+    end: new Date(2025, 5, 27, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2025, 5, 27, 14, 0),
+    end: new Date(2025, 5, 27, 14, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2025, 5, 28, 9, 0),
+    end: new Date(2025, 5, 28, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2025, 5, 28, 10, 0),
+    end: new Date(2025, 5, 28, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2025, 5, 28, 11, 0),
+    end: new Date(2025, 5, 28, 11, 45),
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 5, 28, 14, 0),
+    end: new Date(2025, 5, 28, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2025, 5, 29, 8, 0),
+    end: new Date(2025, 5, 29, 8, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2025, 5, 29, 10, 0),
+    end: new Date(2025, 5, 29, 10, 45),
   },
-
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2025, 5, 29, 13, 0),
+    end: new Date(2025, 5, 29, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 5, 29, 14, 0),
+    end: new Date(2025, 5, 29, 14, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2025, 5, 30, 9, 0),
+    end: new Date(2025, 5, 30, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2025, 5, 30, 10, 0),
+    end: new Date(2025, 5, 30, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2025, 5, 30, 11, 0),
+    end: new Date(2025, 5, 30, 11, 45),
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2025, 5, 30, 14, 0),
+    end: new Date(2025, 5, 30, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2025, 6, 1, 8, 0),
+    end: new Date(2025, 6, 1, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2025, 6, 1, 9, 0),
+    end: new Date(2025, 6, 1, 9, 45),
   },
-
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2025, 6, 1, 11, 0),
+    end: new Date(2025, 6, 1, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2025, 6, 1, 13, 0),
+    end: new Date(2025, 6, 1, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2025, 6, 1, 14, 0),
+    end: new Date(2025, 6, 1, 14, 45),
   },
 ];

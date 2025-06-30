@@ -10,24 +10,24 @@ const Announcements = () => {
             <div className='flex flex-col gap-4 mt-4'>
                 <div className='bg-college-primary/10 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
-                        <h2 className='font-medium'>Lorem, ipsum dolor sit</h2>
+                        <h2 className='font-medium'>Important Campus Update</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
                     </div>
-                    <p className='text-sm text-gray-400 mt-1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p className='text-sm text-gray-400 mt-1'>Campus facilities will be closed for maintenance on January 15th. Please plan accordingly.</p>
                 </div>
                 <div className='bg-college-gold/10 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
-                        <h2 className='font-medium'>Lorem, ipsum dolor sit</h2>
+                        <h2 className='font-medium'>Library Hours Extended</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
                     </div>
-                    <p className='text-sm text-gray-400 mt-1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p className='text-sm text-gray-400 mt-1'>The university library will now remain open until midnight to accommodate student study schedules.</p>
                 </div>
                 <div className='bg-college-success/10 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
-                        <h2 className='font-medium'>Lorem, ipsum dolor sit</h2>
+                        <h2 className='font-medium'>New Student Support Services</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>2025-01-01</span>
                     </div>
-                    <p className='text-sm text-gray-400 mt-1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p className='text-sm text-gray-400 mt-1'>Additional mental health and academic counseling services are now available for all students.</p>
                 </div>  
             </div>
         </div>
