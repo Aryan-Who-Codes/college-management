@@ -78,7 +78,7 @@ const StudentListPage = () => {
       </td>
       <td className="p-2 sm:p-4">
         <div className="flex items-center gap-1 sm:gap-2">
-          <Link href={`/list/teachers/${item.id}`}>
+          <Link href={`/list/students/${item.id}`}>
             <button className="w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-full bg-[#fbd56b] cursor-pointer">
               <Image src="/view.png" alt="" width={14} height={14} className="sm:w-4 sm:h-4" />
             </button>
@@ -87,7 +87,7 @@ const StudentListPage = () => {
             <button className="w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-full bg-[#f1bdca] cursor-pointer">
               <Image src="/delete.png" alt="" width={14} height={14} className="sm:w-4 sm:h-4" />
             </button>
-            // <FormModal table="teacher" type="delete" id={item.id} />
+            // <FormModal table="student" type="delete" id={item.id} />
           )}
         </div>
       </td>
