@@ -9,7 +9,7 @@ import { useState } from "react";
 const localizer = momentLocalizer(moment);
 
 const BigCalendar = () => {
-    const [view, setView] = useState<View>(Views.WEEK);
+    const [view, setView] = useState<View>(Views.DAY);
 
     return (
         <div className="h-full w-full min-h-[400px] relative">
